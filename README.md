@@ -1,5 +1,7 @@
 # Chainlink Bootcamp EN 2024
 
+[Slides]()
+
 ## Day 1
 **[Fundamental Blockchain Concepts and Wallets](https://www.youtube.com/watch?v=G7V-G7RURDI)**
 
@@ -48,11 +50,49 @@ It involves building and sending a CCIP message, managing fees on LINK tokens, a
 The destination chain selector (destinationChainSelector) is set on the Sepolia testnet.
 
 
-[Chainlink CCIP](https://docs.chain.link/ccip)
+
+**[Chainlink CCIP](https://docs.chain.link/ccip)**
+
+**[Testnet AVAX Fuji](https://testnet.snowtrace.io/)**
+
+**[CCIP supported networks](https://docs.chain.link/ccip/supported-networks)**
+
+![Alt text](chainlin-cross-chain.png)
 
 ## Day 5
 **[Mentoring Session With the Chainlink Community](https://www.youtube.com/live/xSfTQ66qUm0?si=XjficlYLr2gRYCIm)**
 
 Call section with some members of the Chainlink global community.
+
+## Day 6 
+
+**[NFTs and Chainlink Automation](https://www.youtube.com/watch?v=WjBmwy5NDgU)**
+
+Creating a NTF collection with OpenZeppelin wizard
+https://wizard.openzeppelin.com/#erc721
+
+Listing in OpenSea
+https://testnets.opensea.io/
+
+Creating Dynamic NFT
+
+Updating NTFs with Blockchain Oracles
+
+Chainlink Automation: Decentralized smart contract automation
+
+Decentralized netowk of nodes. Which are rewarded for running registered processes (jobs), called Upkeeps.
+
+They can be used to verify conditions and send transactions to smart contracts according to pre-established reules. It is the active agent that will interact with a smart contract.
+
+- Smart contracts are NOT self-executing
+- They cannot alone start a process or call its functions from time to time or under certain conditions
+- Changes in the state of a smart contract only happen when a transaction is initiated by another account
+- Examples: a user, oracle or other smart contract
+
+[Chainlink Automation](https://chain.link/automation)
+
+[Docs Chainlink Automation](https://docs.chain.link/chainlink-automation)
+
+[Register new Upkeep](https://automation.chain.link/)
 
 
