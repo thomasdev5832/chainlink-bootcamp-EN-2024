@@ -68,26 +68,50 @@ Call section with some members of the Chainlink global community.
 
 **[NFTs and Chainlink Automation](https://www.youtube.com/watch?v=WjBmwy5NDgU)**
 
+NFTs (Non-Fungible Token) represent something
+- Unique ID and Auto-increment
+
+Images in NFTs
+
+IPFS: Piñata, Infura, Quicknode NFT.storage, Web3.storage, Thirdweb storage
+
+Metadata - Json
+```
+{
+    "name": "NFT item name",
+    "description": "NFT item description",
+    "image": "https://...",
+    "attributes": [...]
+}
+```
+
 Creating a NTF collection with OpenZeppelin wizard
 https://wizard.openzeppelin.com/#erc721
 
-Listing in OpenSea
+Listing in OpenSea marketplace
 https://testnets.opensea.io/
 
 Creating Dynamic NFT
 
-Updating NTFs with Blockchain Oracles
-
-Chainlink Automation: Decentralized smart contract automation
-
-Decentralized netowk of nodes. Which are rewarded for running registered processes (jobs), called Upkeeps.
-
-They can be used to verify conditions and send transactions to smart contracts according to pre-established reules. It is the active agent that will interact with a smart contract.
+Metadata - On-chain upgrade
+    - Metadata URL
+    - URL image
+    - Json
 
 - Smart contracts are NOT self-executing
 - They cannot alone start a process or call its functions from time to time or under certain conditions
 - Changes in the state of a smart contract only happen when a transaction is initiated by another account
 - Examples: a user, oracle or other smart contract
+
+Updating NTFs with Blockchain Oracles
+
+Chainlink Automation: Decentralized smart contract automation
+
+Decentralized netwowk of nodes. Which are rewarded for running registered processes (jobs), called Upkeeps.
+
+They can be used to verify conditions and send transactions to smart contracts according to pre-established reules. It is the active agent that will interact with a smart contract.
+
+![Alt text](chainlink-automation.PNG)
 
 [Chainlink Automation](https://chain.link/automation)
 
@@ -95,4 +119,14 @@ They can be used to verify conditions and send transactions to smart contracts a
 
 [Register new Upkeep](https://automation.chain.link/)
 
+
+## Day 7
+
+**[Cross-chain NFTs Chainlink CCIP (Messages)](https://www.youtube.com/watch?v=XjzJtD2ySQ0)**
+
+Arbitrary Messaging
+
+Programmable Token Transfers
+
+Cross-chain NFTs
 
