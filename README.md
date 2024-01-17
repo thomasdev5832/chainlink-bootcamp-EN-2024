@@ -132,3 +132,11 @@ Cross-chain NFTs
 
 [Price Feed Contract Addresses](https://docs.chain.link/data-feeds/price-feeds/addresses)
 
+## Day 8
+
+**[Generating Random Numbers Using Chainlink VRF](https://www.youtube.com/watch?v=-tBZsxsE8K0)
+
+**Chainlink VRF (Verifiable Random Function)** is a provably fair and verifiable random number generator (RNG) that enables smart contracts to access random values without compromising security or usability.
+
+**[VRF Resource](https://dev.chain.link/products/vrf)**
+
