@@ -152,5 +152,7 @@ Chainlink Functions allows anyone to write serverless code to fetch any data fro
 
 **[Run-functions](https://www.run-functions.app/)**
 
+**[NPM package @chainlink/functions-toolkit](https://www.npmjs.com/package/@chainlink/functions-toolkit)**
+
 **[Ways To Use Chainlink Functions in Your Decentralized Applications](https://blog.chain.link/ways-to-use-chainlink-functions/)**
 
