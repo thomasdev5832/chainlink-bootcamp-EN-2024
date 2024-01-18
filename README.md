@@ -1,6 +1,6 @@
 # Chainlink Bootcamp EN 2024
 
-[Slides]()
+[Slides](https://docs.google.com/presentation/d/e/2PACX-1vRQ5ssT21p2lr6vFgxD5_JUp3ZXePsjxVsi56ljD_UUbT2b5COSXXhDE0CsBjMBRPkVH9yofNUsvz-X/pub?start=false&loop=false&delayms=3000)
 
 ## Day 1
 **[Fundamental Blockchain Concepts and Wallets](https://www.youtube.com/watch?v=G7V-G7RURDI)**
@@ -139,4 +139,16 @@ Cross-chain NFTs
 **Chainlink VRF (Verifiable Random Function)** is a provably fair and verifiable random number generator (RNG) that enables smart contracts to access random values without compromising security or usability.
 
 **[VRF Resource](https://dev.chain.link/products/vrf)**
+
+## Day 9
+
+**[Access Offchain Data With Chainlink Functions](https://www.youtube.com/watch?v=jK6NMxz3wvc)**
+
+Chainlink Functions allows anyone to write serverless code to fetch any data from any API and run custom compute on Chainlink's network.
+
+**[usechainlinkfunctions.com](https://usechainlinkfunctions.com/)**
+
+**[Docs Chainlink Functions](https://dev.chain.link/products/functions)**
+
+**[Ways To Use Chainlink Functions in Your Decentralized Applications](https://blog.chain.link/ways-to-use-chainlink-functions/)**
 
