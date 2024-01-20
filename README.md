@@ -41,6 +41,8 @@ This contract relies on an external Chainlink oracle to obtain the ETH/USD price
 
 **[Cross-Chain Tokens Using Chainlink CCIP](https://www.youtube.com/live/5IFeP0gdcpM?si=MriUBCNBkFYNvoyv)**
 
+### Chainlink CCIP
+
 Creation of the CCIPTokenSenderFujiSepolia.sol smart contract
 
 Here we use Cross Chain Interoperability Protocol to transfer Chainlink CCIP messages from the AVAX Fuji testnet to the Sepolia Ethereum testnet. 
@@ -48,8 +50,6 @@ Here we use Cross Chain Interoperability Protocol to transfer Chainlink CCIP mes
 It involves building and sending a CCIP message, managing fees on LINK tokens, and allowing the contract owner to withdraw the remaining tokens. 
 
 The destination chain selector (destinationChainSelector) is set on the Sepolia testnet.
-
-
 
 **[Chainlink CCIP](https://docs.chain.link/ccip)**
 
@@ -68,8 +68,7 @@ Call section with some members of the Chainlink global community.
 
 **[NFTs and Chainlink Automation](https://www.youtube.com/watch?v=WjBmwy5NDgU)**
 
-NFTs (Non-Fungible Token) represent something
-- Unique ID and Auto-increment
+NFTs (Non-Fungible Token)
 
 Images in NFTs
 
@@ -124,11 +123,13 @@ They can be used to verify conditions and send transactions to smart contracts a
 
 **[Cross-chain NFTs Chainlink CCIP (Messages)](https://www.youtube.com/watch?v=XjzJtD2ySQ0)**
 
+### Cross-chain NFTs
+
 Arbitrary Messaging
 
 Programmable Token Transfers
 
-Cross-chain NFTs
+**[Chainlink CCIP](https://docs.chain.link/ccip)**
 
 [Price Feed Contract Addresses](https://docs.chain.link/data-feeds/price-feeds/addresses)
 
@@ -136,7 +137,11 @@ Cross-chain NFTs
 
 **[Generating Random Numbers Using Chainlink VRF](https://www.youtube.com/watch?v=-tBZsxsE8K0)
 
+### Chainlink VRF
+
 **Chainlink VRF (Verifiable Random Function)** is a provably fair and verifiable random number generator (RNG) that enables smart contracts to access random values without compromising security or usability.
+
+Create Runners game using Chainlink VRF.
 
 **[VRF Resource](https://dev.chain.link/products/vrf)**
 
@@ -144,15 +149,57 @@ Cross-chain NFTs
 
 **[Access Offchain Data With Chainlink Functions](https://www.youtube.com/watch?v=jK6NMxz3wvc)**
 
+### Chainlink Functions
+
 Chainlink Functions allows anyone to write serverless code to fetch any data from any API and run custom compute on Chainlink's network.
 
 **[usechainlinkfunctions.com](https://usechainlinkfunctions.com/)**
 
 **[Docs Chainlink Functions](https://dev.chain.link/products/functions)**
 
+[](https://functions.chain.link/)
+
 **[Run-functions](https://www.run-functions.app/)**
 
 **[NPM package @chainlink/functions-toolkit](https://www.npmjs.com/package/@chainlink/functions-toolkit)**
 
 **[Ways To Use Chainlink Functions in Your Decentralized Applications](https://blog.chain.link/ways-to-use-chainlink-functions/)**
+
+## Day 10
+
+**[Connecting the World Using the Chainlink Platform](https://www.youtube.com/watch?v=7i6gAp5Sx84)**
+
+### Chainlink Proof of Reserve (PoR)
+- Get data in your Smart Contracts from external sources
+- Any on-chain asset backed by off-chain or cross-chain reserves
+- Provides smart contracts with the data needed to calculate the true collateralization
+- Operated by a decentralized network of oracles
+- Reduce insolvency risks with automated, truth-based audits
+-  Improve transparency for users
+- Prevent systemic failures in DeFi
+
+For: Digitalized Assets, Circuit Brakers, Cross-chain Tokenization, New Financial Products, Cross-chain Assets, Wrapped assets, Fiat-Backed Stablecoins, Proof of Reserve for Bitcoin
+
+**[Chainlink Proof-of-Reserve](https://chain.link/proof-of-reserve)**
+
+**[Docs: Chainlink Market and Data Feeds](https://docs.chain.link/data-feeds/proof-of-reserve)**
+
+**[Article: What Are Proof of Reserves?](https://chain.link/education-hub/proof-of-reserves)**
+
+**[Article: Verify Stablecoin Collateral With Chainlink Proof of Reserve](https://blog.chain.link/verify-stablecoin-collateral-with-chainlink-proof-of-reserve/)**
+
+
+### Data Streams
+
+With Data Streams, dApps have on-demand access to high-frequency market data backed by decentralized and transparent infrastructure.
+
+**[Docs: Data Streams](https://docs.chain.link/data-streams)**
+
+
+
+
+
+
+
+
 
